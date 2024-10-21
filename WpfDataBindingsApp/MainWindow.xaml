@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfDataBindingsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDataBindingsApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="30">
+    <!--<Window.Resources>
+        <local:Company x:Key="company" Title="Mail Group"/>
+        <local:Employee x:Key="employee" 
+                        Name="Denny" 
+                        Age="31" 
+                        Salary="130000"
+                        Company="{StaticResource company}"/>
+    </Window.Resources>-->
+    <!--<StackPanel Width="500" DataContext="{StaticResource employee}">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="20">
+                <TextBlock Text="{Binding Name}"/>
+                <TextBlock Text="{Binding Age}"/>
+            </StackPanel>
+            <StackPanel Margin="20">
+                --><!--DataContext="{Binding Company}"--><!--
+                <TextBlock Text="{Binding Company.Title}"/>
+                <TextBlock Text="{Binding Salary}"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>-->
+    <StackPanel Width="300">
+        <ListBox x:Name="listEmployees"/>
+        <Button Content="Add Employee" Click="Button_Click"/>
+    </StackPanel>
+</Window>

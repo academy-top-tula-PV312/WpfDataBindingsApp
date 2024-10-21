@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataBindingsApp", "WpfDataBindingsApp\WpfDataBindingsApp.csproj", "{2AEC3504-1F18-47CC-BF22-CCE3E8AEE3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfXmlDataBindingApp", "WpfXmlDataBindingApp\WpfXmlDataBindingApp.csproj", "{5B20ED30-54E7-4D53-93AB-20468A7FE460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AEC3504-1F18-47CC-BF22-CCE3E8AEE3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEC3504-1F18-47CC-BF22-CCE3E8AEE3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEC3504-1F18-47CC-BF22-CCE3E8AEE3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEC3504-1F18-47CC-BF22-CCE3E8AEE3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B20ED30-54E7-4D53-93AB-20468A7FE460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B20ED30-54E7-4D53-93AB-20468A7FE460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B20ED30-54E7-4D53-93AB-20468A7FE460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B20ED30-54E7-4D53-93AB-20468A7FE460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C0176E8-95FE-4A6B-9C39-455D48C830A7}
+	EndGlobalSection
+EndGlobal
